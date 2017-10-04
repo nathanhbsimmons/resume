@@ -1,0 +1,33 @@
+body {
+ background-image: url("file:design.jpg");
+  color: black  ;
+  text-align: left;
+}
+
+
+
+.topnav {
+    background-color: white;
+    border-style: groove;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
